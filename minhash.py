@@ -55,7 +55,6 @@ for doc_id,doc in enumerate(docs):
 for b in bucket_files:
     bucket_files[b].sort()
 
-print(bucket_files)
 print("Generated Signatures using Permutation Formula")
 
 
@@ -102,6 +101,8 @@ remove_list=[i for i in range(len(docs)) if i!=find(i)]
 #Filtering 
 final_docs=[doc for i,doc in enumerate(docs) if i not in remove_list]
 
+
 print("******************FINAL DOCUMENTS*********************   ")
 for doc in final_docs:
     print(doc)
+

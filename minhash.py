@@ -1,4 +1,3 @@
-import random
 import heapq
 import hashlib
 import numpy as np
